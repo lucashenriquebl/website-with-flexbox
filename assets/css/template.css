@@ -185,8 +185,8 @@ nav a:active {
 
 .latest_news {
     display: flex;
-    width: 700px;
-    flex-wrap: wrap;
+    width: 660px;
+    flex-direction: column;
 }
 
 .latest_news .post_statistics {
@@ -238,7 +238,6 @@ nav a:active {
 .latest_news .post {
     width: 300px;
     margin-right: 30px;
-    flex: 1;
 }
 
 .latest_news .post p {
@@ -251,4 +250,58 @@ nav a:active {
     border: none;
     margin-top: 30px;
     background-color: #dad9d9;
+}
+
+.post_area {
+    display: flex;
+    flex-wrap: wrap;
+}
+
+.departments {
+    width: 320px;
+}
+
+.departments_title hr {
+    background-color: #42B3E5;
+    width: 50px;
+    height: 3px;
+    border: none;
+    margin-bottom: 20px;
+}
+
+.departments_info {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    width: 100%;
+    background-color: #3156A3;
+    height: 40px;
+    margin-top: 32px;
+    margin-bottom: 24px;
+}
+
+.departments_info a {
+    color: #ffffff;
+    margin-left: 10px;
+    font-size: 18px;
+    text-decoration: none;
+}
+
+.departments_info .icon {
+    margin-right: 10px;
+}
+
+.departments_content {
+    display: flex;
+    justify-content: space-between;
+}
+
+.departments_content img {
+    width: 100px;
+    height: 80px;
+    margin-right: 20px;
+}
+
+.departments_content p {
+    font-size: 14px;
 }
