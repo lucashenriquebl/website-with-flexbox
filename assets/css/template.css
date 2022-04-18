@@ -268,7 +268,7 @@ nav a:active {
 
 .post_show_all a {
     position: absolute;
-    top: 1100px;
+    top: 0;
     right: 0;
 }
 
