@@ -401,24 +401,104 @@ nav a:active {
     border-bottom: 1px solid rgb(218, 218, 218);
 }
 
-/* .departments_contact_address_item {
-    border-top: 1px solid rgb(218, 218, 218);
-    padding-top: 10px;
-    padding-bottom: 10px;
+footer {
+    display: flex;
+    justify-content: center;
+    margin-top: 30px;
 }
 
-.departments_contact_address_item a {
-    text-decoration: none;
+footer .container {
+    justify-content: center;
+    flex-direction: column;
 }
 
-.departments_contact_address_item .address_icon {
-    color: #727272;
+.cards_footer {
+    display: flex;
+    height: 80px;
 }
 
-.departments_contact_address_item .address_contact {
-    color: #727272;
+.cards_footer_1,
+.cards_footer_2,
+.cards_footer_3 {
+    color: #ffffff;
+    width: 330px
 }
 
-.departments_contact_address_item .address_contact {
-    text-decoration: none;
-} */
+.cards_footer_1 h4,
+.cards_footer_2 h4,
+.cards_footer_3 h4 {
+    margin-left: 25px;
+    font-size: 20px;
+    margin-top: 15px;
+    margin-bottom: 10px;
+}
+
+.cards_footer_1 p,
+.cards_footer_2 p,
+.cards_footer_3 p {
+    margin-left: 25px;
+    font-size: 13px;
+}
+
+.cards_footer_1 {
+    background-color: #39aae1;
+}
+
+.cards_footer_2 {
+    background-color: #0079c7;
+}
+
+.cards_footer_3 {
+    background-color: #2b4c99;
+}
+
+footer {
+    background-color: #2E3033;
+}
+
+.footer_info {
+    display: flex;
+    margin-top: 25px;
+    justify-content: center;
+}
+
+.footer_info hr {
+    background-color: #42B3E5;
+    width: 50px;
+    height: 3px;
+    border: none;
+    margin-top: 10px;
+    margin-bottom: 25px;
+}
+
+.footer_info_1,
+.footer_info_2,
+.footer_info_3 {
+    color: #ffffff;
+    width: 330px
+}
+
+.footer_contact {
+    display: flex;
+    margin-top: 30px;
+    margin-bottom: 30px;
+}
+
+.footer_contact_1 {
+    margin-right: 30px;
+}
+
+.footer_contact_2 {
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-end;
+}
+
+.footer_socials ul {
+    display: flex;
+    list-style: none;
+}
+
+.footer_socials li {
+    margin-right: 5px;
+}
