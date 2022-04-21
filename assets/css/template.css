@@ -456,6 +456,10 @@ footer {
     background-color: #2E3033;
 }
 
+.footer_message {
+    font-size: 14px;
+}
+
 .footer_info {
     display: flex;
     margin-top: 25px;
@@ -478,10 +482,20 @@ footer {
     width: 330px
 }
 
+.footer_info_1 p {
+    color: #727272;
+}
+
 .footer_contact {
     display: flex;
     margin-top: 30px;
     margin-bottom: 30px;
+}
+
+.footer_contact a {
+    text-decoration: none;
+    color: #ffffff;
+    font-size: 13px;
 }
 
 .footer_contact_1 {
@@ -501,4 +515,71 @@ footer {
 
 .footer_socials li {
     margin-right: 5px;
+}
+
+.footer_info_2 {
+    margin-left: 20px;
+}
+
+.footer_posts {
+    display: flex;
+    flex-direction: column;
+}
+
+.footer_posts_1,
+.footer_posts_2,
+.footer_posts3 {
+    margin-bottom: 15px;
+}
+
+.footer_posts span {
+    color: #ffffff;
+}
+
+.footer_posts .footer_message {
+    color: #727272;
+}
+
+.footer_posts .post_date a {
+    color: #13a8ec;
+    text-decoration: none;
+    font-size: 13px;
+}
+
+.tweets_posts {
+    margin-bottom: 15px;
+    color: #727272;
+}
+
+.tweets_posts span {
+    color: #ffffff;
+}
+
+.tweets_posts .link_tweet {
+    color: #ffffff;
+    text-decoration: none;
+}
+
+.tweets_posts_date {
+    color: #13a8ec;
+    text-decoration: none;
+    font-size: 13px;
+}
+
+.footer_copyright {
+    border-top: 1px solid rgba(230, 230, 230, 0.11);
+    display: flex;
+    justify-content: space-between;
+    font-size: 13px;
+}
+
+.footer_copyright p {
+    margin-top: 15px;
+    margin-bottom: 15px;
+    color: #727272;
+}
+
+.footer_copyright a {
+    text-decoration: none;
+    color: #ffffff;
 }
