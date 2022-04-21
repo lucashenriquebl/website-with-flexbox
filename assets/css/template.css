@@ -203,6 +203,7 @@ nav a:active {
 
 .latest_news .post_date_day a {
     background-color: #3156A3;
+    text-decoration: none;
     color: #ffffff;
     padding: 10px;
     width: 80px;
@@ -211,6 +212,7 @@ nav a:active {
 
 .latest_news .post_date_comments a {
     background-color: #42B3E5;
+    text-decoration: none;
     color: #ffffff;
     padding: 10px;
     width: 15px;
@@ -255,6 +257,10 @@ nav a:active {
 .post_area {
     display: flex;
     flex-wrap: wrap;
+}
+
+.post .post_by {
+    font-size: 13px;
 }
 
 .post_show_all {
