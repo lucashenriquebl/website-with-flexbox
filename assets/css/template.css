@@ -616,3 +616,11 @@ footer .container {
     text-decoration: none;
     color: #ffffff;
 }
+
+.footer_copyright .top_arrow span {
+    margin-left: 5px;
+}
+
+.footer_copyright a:hover {
+    color: #13a8ec;
+}
