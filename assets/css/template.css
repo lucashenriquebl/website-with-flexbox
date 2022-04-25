@@ -485,6 +485,10 @@ footer .container {
     font-size: 14px;
 }
 
+.footer_message span {
+    margin-right: 6px;
+}
+
 .footer_info {
     display: flex;
     margin-top: 25px;
@@ -531,6 +535,10 @@ footer .container {
     display: flex;
     flex-direction: column;
     justify-content: flex-end;
+}
+
+.footer_contact_2 a:hover {
+    color: #13a8ec;
 }
 
 .footer_socials ul {
@@ -586,11 +594,16 @@ footer .container {
 
 .tweets_posts span {
     color: #ffffff;
+    margin-right: 6px;
 }
 
 .tweets_posts .link_tweet {
     color: #ffffff;
     text-decoration: none;
+}
+
+.tweets_posts .link_tweet:hover {
+    color: #13a8ec;
 }
 
 .tweets_posts_date {
